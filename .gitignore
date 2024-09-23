@@ -1,0 +1,21 @@
+# Ignorer les fichiers sensibles et non essentiels
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/backup-db/
+wp-content/object-cache.php
+
+# Ignorer le fichier d’activation automatique de WordPress
+wp-activate.php
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers cachés
+*.log
+*.tmp
