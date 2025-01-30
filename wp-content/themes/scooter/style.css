@@ -1,0 +1,11 @@
+/*
+Theme Name: Scooter
+Author: Yassir
+Description: Un thème du projet de fin d'année. Il s'agit d'une création d'un site de location des trottinnetes.
+
+*/
+
+.container {
+    width:80%;
+    margin:auto;
+}

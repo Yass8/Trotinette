@@ -1,0 +1,140 @@
+@media (min-width: 100px) and (max-width: 600px) {
+    .container {
+        /* background-color: lightblue; */
+        padding: 10px;
+    }
+
+    .bloc-image{
+        display: none;
+    }
+
+    .bloc form{
+        width: 100%;
+    }
+
+    .bloc form input{
+        width: 100%;
+    }
+
+    .bloc form input[type=checkbox]{
+        width: 20px;
+        height: 20px;
+    }
+
+    .banner{
+        font-size: 15px;
+    }
+
+    .navb{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .navb li:nth-child(1){
+        margin-left: 0px;
+    }
+
+    .navb li{
+        margin: 0px;
+        padding: 30px 0px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo h5{
+        display: none;
+    }
+
+    .icon-btn-menu img:nth-child(1){
+        display: block;
+    }
+
+    .navb{
+        display: none;
+    }
+
+    .nav-btn{
+        text-align: center;
+        display: none;
+        padding: 15px 0px;
+    }
+
+    .bloc-nav{
+        background-color: #f9f7f6;
+    }
+
+    .footer-menu{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .footer-menu li{
+        padding: 10px 0px;
+    }
+
+    footer h3{
+        text-align: center;
+    }
+
+    footer .footer-logo{
+        display: none;
+    }
+
+    .reseaux{
+        text-align: center;
+        margin: 25px 0px;
+    }
+
+    .layout p{
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .img-horizontal{
+        height: 350px;
+    }
+}
+
+/* Écran moyen - Tablette */
+@media (min-width: 601px) and (max-width: 1268px) {
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloc-image{
+        display: none;
+    }
+
+    .login-logo{
+        text-align: center;
+    }
+
+    .bloc form{
+        width: 100%;
+    }
+
+    .bloc form input{
+        width: 100%;
+    }
+
+    .bloc form input[type=checkbox]{
+        width: 20px;
+        height: 20px;
+    }
+
+    /* .bloc form button{
+        width: 100%;
+    } */
+
+    .nav-btn{
+        text-align: center;
+    }
+
+}
